@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(118,29,154,1) 50%, rgba(13,13,13,1) 100%);;
+}
+#wrapper {
+    margin: auto;
+    max-width: 90em;
+}
+
+
+header {
+  
+    height: 3.5em;
+    max-width: 100em;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    background-color: #616161;
+    width: 100%;
+}
+
+header div {
+    margin-right: .5em;
+}
+
+#logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+
+} 
+#get-quote, #services {
+    background-color: transparent;
+    border:solid 1px #fff;
+    padding: .3em; 
+    border-radius: 2em;
+}
+#user-btn {
+    display: flex;
+    align-items: center;
+    width: 7.5em;
+   
+
+}
+
+#get-quote {
+    width: 20%;
+    text-align: center;
+    margin-right: 1em;
+}
+
+#user-btn-picture {
+    display: flex;
+    background-color: red;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 2em;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+}
+#get-quote a, #services a{
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#get-quote a:hover, #services a:hover{
+    color: rgb(72, 8, 114);
+   
+}
+#get-quote:hover, #services:hover 
+{
+    border:solid 1px rgb(72, 8, 114);
+
+}
+
+#offers {
+    display: flex;
+}
+
+.icon {
+    background-color: rgb(122, 99, 145);
+    width: 35%;
+    margin: 2em;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    border-radius: 2em;
+
+}
+
+.icon p {
+    margin: 1em 0;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+.icon .offer-title{
+    margin-bottom: 1em;
+    height: 30%;
+}
+.icon .offer-box{
+    padding-top: 1em;
+    height: 40%;
+}
+
+
+.icon button {
+    margin-top: 1em;
+    background-color: #fff;
+    font-size: 25px;
+    border: none;
+    padding: .5em;
+    border-radius: 2em;
+    margin-bottom: 1em;
+}
+
+#serviceform{
+    display: block;
+    /* border: solid 1px red*/
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 1em;
+    background-color: rgb(170, 136, 86, .3);
+}
+#serviceform h1{
+    margin: .5em;
+    text-align: center;
+    color: #fff;
+}
+#serviceform input{
+    display: block;
+    font-size: 2em;
+    width: 95%;
+    margin: .5em;
+    border-radius: .3em;
+    padding-left: .2em;
+}
+#serviceform select{
+    display: block;
+    font-size: 2em;
+    width: 96%;
+    margin: .5em;
+}
+#serviceform button{
+    width: 80%;
+    font-size: 2em;
+  margin-left: 2.3em;
+  border-radius: 10px;
+}
+#serviceform button:hover{
+    background-color: rgb(214, 74, 8);
+    color: #fff;
+}
+/* Operations css */
+#operations {
+    height: 60em;
+    width: 70em;
+    background-color: rgb(0, 0, 0);
+    display: block;
+}
+
+#operations-submenu {
+    border: 1px rgb(216, 187, 22) solid;
+    width: 100%;
+    height: 6%;
+    display: flex;
+}
+
+#operations-services-box {
+    background-color: rgb(165, 153, 153);
+    width: 96%;
+    height: 60%;
+    margin: auto;
+    margin-top: 1em;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+
+}
+
+.operations-submenu-box {
+    width: 33%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: rgb(78, 73, 73);
+}
+
+.operations-submenu-box a {
+    color: #fff;
+}
+
+.operations-submenu-box:hover {
+    background-color: red;
+}
+
+.operations-service-container {
+    display: flex;
+    height: 3em;
+    border-bottom:1px solid red;
+    align-items: center;
+    margin-bottom: .5em;
+}
+
+.operations-service-container div {
+    font-size: 2em;
+    text-align: center;
+}
+.operations-btn-update{
+    width: auto;
+}
+
+.operations-btn-update button{
+    font-size: .8em;
+    padding: .1em;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #ffff;
+   
+    
+}
+
+.operations-plate{
+width:9em;
+}
+.operations-model{
+    width:15em;
+}
+.operations-service{
+    width:50%;
+}
+.operations-date{
+    width:15em;
+    /*border: red 1px solid;*/
+}
+.operations-btn-update{
+display: flex;
+align-items: center;
+justify-content: center;
+    width:25%;
+}
+.operations-btn-update form{
+    width: 150em;
+}
+/* This part is for costumer profile */
+
+
+/* Footer setting */
+footer{
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+}
